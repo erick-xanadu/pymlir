@@ -1,6 +1,6 @@
 """ Tests pyMLIR on examples that use the Toy dialect. """
 
-from mlir import parse_string, parse_path
+from pymlir import parse_string, parse_path
 import os
 
 

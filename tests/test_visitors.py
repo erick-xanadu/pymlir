@@ -1,6 +1,6 @@
 """ Tests pyMLIR's node visitor and transformer. """
 
-from mlir import NodeVisitor, NodeTransformer, Parser, astnodes
+from pymlir import NodeVisitor, NodeTransformer, Parser, astnodes
 from typing import Optional
 
 

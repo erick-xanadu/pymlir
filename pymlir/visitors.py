@@ -1,6 +1,6 @@
 """ Classes containing MLIR AST traversal and transformation functionality. """
 
-from mlir import astnodes
+from pymlir import astnodes
 
 
 def iter_fields(node: astnodes.Node):

@@ -1,9 +1,9 @@
 """ Test that creates and uses a custom dialect. """
 
 from typing import List, Union, Optional
-from mlir import parse_string
-from mlir.astnodes import Node, dump_or_value, SsaId, StringLiteral, TensorType, MemRefType, Dimension
-from mlir.dialect import Dialect, DialectOp, DialectType
+from pymlir import parse_string
+from pymlir.astnodes import Node, dump_or_value, SsaId, StringLiteral, TensorType, MemRefType, Dimension
+from pymlir.dialect import Dialect, DialectOp, DialectType
 from dataclasses import dataclass
 
 

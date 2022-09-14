@@ -2,7 +2,7 @@
 
 import inspect
 from lark import Token
-from mlir import astnodes
+from pymlir import astnodes
 import parse
 from typing import Any, Callable, Dict, List, Optional, Tuple, Type, Union
 from dataclasses import dataclass, field

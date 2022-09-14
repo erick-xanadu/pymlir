@@ -1,13 +1,13 @@
 """ MLIR IR Builder."""
 
-import mlir.astnodes as mast
-import mlir.dialects.standard as std
-import mlir.dialects.affine as affine
+import pymlir.astnodes as mast
+import pymlir.dialects.standard as std
+import pymlir.dialects.affine as affine
 from typing import Optional, Tuple, Union, List, Any
 from contextlib import contextmanager
-from mlir.builder.match import Reads, Writes, Isa, All, And, Or, Not  # noqa: F401
-from mlir.builder.match import MatchExpressionBase
-from mlir.builder.ung import UniqueNameGenerator
+from pymlir.builder.match import Reads, Writes, Isa, All, And, Or, Not  # noqa: F401
+from pymlir.builder.match import MatchExpressionBase
+from pymlir.builder.ung import UniqueNameGenerator
 from dataclasses import dataclass
 
 

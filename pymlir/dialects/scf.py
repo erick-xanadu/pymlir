@@ -2,8 +2,8 @@
 
 import inspect
 import sys
-from mlir.dialect import Dialect, DialectOp, is_op, UnaryOperation
-import mlir.astnodes as mast
+from pymlir.dialect import Dialect, DialectOp, is_op, UnaryOperation
+import pymlir.astnodes as mast
 from dataclasses import dataclass
 from typing import Optional
 

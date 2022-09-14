@@ -1,12 +1,12 @@
 import sys
-import mlir
+import pymlir
 
 # All source strings have been taken from MLIR's codebase.
 # See llvm-project/mlir/test/Dialect/Linalg
 
 
 def assert_roundtrip_equivalence(source):
-    assert source == mlir.parse_string(source).dump()
+    assert source == pymlir.parse_string(source).dump()
 
 
 def test_batch_matmul():

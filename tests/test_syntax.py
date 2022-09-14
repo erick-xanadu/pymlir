@@ -1,6 +1,6 @@
 """ Tests pyMLIR on different syntactic edge-cases. """
 
-from mlir import Parser
+from pymlir import Parser
 from typing import Optional
 
 
