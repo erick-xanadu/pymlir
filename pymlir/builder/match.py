@@ -1,7 +1,7 @@
 """Operation query interface."""
 
-import mlir.astnodes as ast
-from mlir.visitors import NodeVisitor
+import pymlir.astnodes as ast
+from pymlir.visitors import NodeVisitor
 from typing import List, Union
 from dataclasses import dataclass
 

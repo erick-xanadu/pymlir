@@ -1,9 +1,9 @@
 import sys
-from mlir import parse_string
-from mlir.builder import IRBuilder
-from mlir.builder import Reads, Writes, Isa
-from mlir.dialects.affine import AffineLoadOp
-from mlir.dialects.standard import AddfOperation
+from pymlir import parse_string
+from pymlir.builder import IRBuilder
+from pymlir.builder import Reads, Writes, Isa
+from pymlir.dialects.affine import AffineLoadOp
+from pymlir.dialects.standard import AddfOperation
 
 
 def test_saxpy_builder():

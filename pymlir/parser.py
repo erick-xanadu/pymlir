@@ -7,10 +7,10 @@ import sys
 from typing import List, Optional, TextIO
 import runpy
 
-from mlir.parser_transformer import TreeToMlir
-from mlir.dialect import Dialect, add_dialect_rules
-from mlir.dialects import STANDARD_DIALECTS
-from mlir import astnodes as mast
+from pymlir.parser_transformer import TreeToMlir
+from pymlir.dialect import Dialect, add_dialect_rules
+from pymlir.dialects import STANDARD_DIALECTS
+from pymlir import astnodes as mast
 
 
 class Parser(object):

@@ -1,6 +1,6 @@
 """ Tests pyMLIR in a parse->dump->parse round-trip. """
 
-from mlir import parse_string
+from pymlir import parse_string
 
 
 def test_toy_roundtrip():

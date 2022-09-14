@@ -1,7 +1,7 @@
 from lark import v_args, Transformer
 from lark.exceptions import GrammarError
 from lark.visitors import Discard
-from mlir import astnodes
+from pymlir import astnodes
 
 
 class TreeToMlir(Transformer):
